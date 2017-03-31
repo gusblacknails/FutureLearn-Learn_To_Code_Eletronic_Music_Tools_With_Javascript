@@ -1,5 +1,5 @@
 <p>This repository is dedicated to the <a href="https://www.futurelearn.com/courses/electronic-music-tools/">Learn to Code Electronic Music Tools with Javascript</a> MOOC that i'm currently taking at Future Learn. I decided to post all of my code into Github to help other learners if they get stuck. I will try to comment all of the code i put into and organize all of the course files by weeks.</p>
-
+<p>In each page you will find the script and the html code commentend and in demostration to better understand what is happening in the background</p>
 <p>You can use the following table of contents to guide yourself trough the topics of the course. The topics are in the same order as the course topics, but i skipped discussions and quizzes sections</p>
 <p>This repo will be updated as the course advances, so, stay tuned.</p>
 <ul>
