@@ -16,7 +16,7 @@
 		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/109/index.html">109 - Our First synth</a></li>
 		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/111/index.html">1.11 - Mouse Controlled Synth</a></li>
 		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/113/index.html">1.13 - Keyboard Controlled Synth</a></li>
-		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/115/index.html">1.15 - UModulation with an oscillator</a></li>
+		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/115/index.html">1.15 - Modulation with an oscillator</a></li>
 		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/117/index.html">1.17 - Using Envelopes</a></li>
 		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/119/index.html">1.19 - Fiddling with the filter</a></li>
 		<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/121/index.html">1.21 - Sound Synthesis Outro</a></li>
