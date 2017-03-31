@@ -6,7 +6,7 @@
 	<li>
 	<h4>Week 1</h4>
 	<hr>
-	<ol>
+	<ol type="1">
 		<li value="101">Course Introduction</li>
 		<li value="102">What you will need to take this course</li>
 		<li value="103">Learning Outcomes</li>
