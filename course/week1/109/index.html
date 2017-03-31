@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 1.10 - Our First Synth</title>
+	<script type="text/javascript" src="../../index.js"></script>
+	<link rel="stylesheet" href="../../syntax.css">
+</head>
+
+<body>
+
+<h2>Chapter 1.10 - Our First Synth</h2>
+<h3>In this chapter you learnt how to create a basic oscillator using the Web Audio API.</h3>
+
+<div class="code">
+<span class="file">script</span>
+<pre class="js">
+</pre>
+</div>
+	<script id="js">
+// Makes the synthsizer cross browser compatible
+var audio_context = window.AudioContext || window.webkitAudioContext;
+	
+var con = new audio_context(); // Create an audio engine
+
+var osc = con.createOscillator(); //Creating an Oscilattor
+
+osc.connect(con.destination); // Connects the oscillator to the computer sound system
+
+osc.start(); //starts the oscillator
+</script>
+</body>
+</html>

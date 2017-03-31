@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 1.11 - Mouse Controlled Synth<</title>
+		<script type="text/javascript" src="../../index.js"></script>
+	<link rel="stylesheet" href="../../syntax.css">
+</head>
+<body>
+
+<h2>Chapter 1.11 - Mouse Controlled Synth</h2>
+<h3>In this lesson you learnt how to programatically change the frequency of an oscillator when the mouse moves.</h3>
+<div style="border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;" onmousemove="osc.frequency.value=event.clientY">
+	<p style="color:white">Mouse the mouse here</p>
+</div>
+<div class="code">
+<span class="file">script</span>
+<pre class="js">
+</pre>
+</div>
+
+<div class="code">
+<span class="file">html</span>
+		<p><span class="tag">&#x3C;div </span><span class="attr">style=&#x22;border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;&#x22; onmousemove=&#x22;osc.frequency.value=event.clientY&#x22;</span><span class="tag">&#x3E;</span></p>
+		<p><span class="tag">&#x9;&#x3C;p</span> <span class="attr">style=&#x22;color:white&#x22;</span><span class="tag">&#x3E;</span> Mouse the mouse here <span class="tag">&#x3C;/p&#x3E;</span></p>
+		<p><span class="tag">&#x3C;/div&#x3E;</span></p>
+</div>
+<script id="js">
+var audio_context = window.AudioContext || window.webkitAudioContext; // Makes the synthsizer cross browser compatible
+
+var con = new audio_context(); // Create an audio engine
+
+var osc = con.createOscillator(); //Creating an Oscilattor
+
+osc.connect(con.destination); // Connects the oscillator to the computer sound system
+
+osc.frequency.value = 600;
+
+osc.start(); //starts the oscillator
+</script>
+</body>
+</html>

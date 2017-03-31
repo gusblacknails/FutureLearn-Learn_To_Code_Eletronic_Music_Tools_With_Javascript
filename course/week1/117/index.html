@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 1.15 - Using Envelopes</title>
+	<script type="text/javascript" src="../../index.js"></script>
+	<link rel="stylesheet" href="../../syntax.css">
+</head>
+<style>
+
+</style>
+<body>
+
+<h2>Chapter 1.15 - Using Envelopes</h2>
+<h3>In this lesson you learnt how to programatically use envelopes to change the oscillator over time.</h3>
+
+<div tabindex="1" style="border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;" onkeydown="playSynth()">
+	<p style="color:white">Click here and press a key</p>
+</div>
+<div class="code">
+<span class="file">script</span>
+<pre class="js">
+</pre>
+</div>
+
+<div class="code">
+<span class="file">html</span>
+<p><span class="tag">&lt;div</span> <span class="attr">tabindex="1" style="border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;" onkeydown="setNote(event.key)"</span><span class="tag">&gt;</span></p>
+	<p>&emsp;&emsp;&emsp;<span class="tag">&lt;p</span> <span class="attr">style="color:white"</span><span class="tag">&gt;</span></span>Click here and press a key<span class="tag">&lt;/p&gt;</span></p>
+<p><span class="tag">&lt;/div&gt;</span></p>
+</div>
+	<script id="js">	
+var audio_context = window.AudioContext || window.webkitAudioContext; // Makes the synthsizer cross browser compatible
+
+var con = new audio_context(); // Create an audio engine
+
+function playSynth(){
+	
+	var osc = con.createOscillator(); //Creating an Oscilattor
+
+	var amp = con.createGain(); //Creates a Gain Node
+
+	amp.gain.value = 0.05; //Decreases de volume;
+
+	osc.frequency.value = Math.random() * 500; //Random math number as frequency
+
+	osc.type = "sine"; //Sets the wave type
+
+	var now = con.currentTime; //number of the seconds that elapsed since the program started
+
+	amp.gain.linearRampToValueAtTime(0.1, now + 2); //Creating an Envelope
+	
+	amp.gain.linearRampToValueAtTime(0, now + 4); //Creating an Envelope
+	
+	osc.connect(amp); //Connects the oscillator to the computer sound system
+
+	amp.connect(con.destination); //Connects to the output
+	
+	osc.start(); //Starts the oscillator
+
+	osc.stop(now + 4.1) //Stops the oscillator when finished
+
+}
+</script>
+</body>
+</html>

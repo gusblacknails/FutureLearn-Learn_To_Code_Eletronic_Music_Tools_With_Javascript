@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 1.13 - Our First Synth</title>
+	<script type="text/javascript" src="../../index.js"></script>
+	<link rel="stylesheet" href="../../syntax.css">
+</head>
+<style>
+
+</style>
+<body>
+
+<h2>Chapter 1.13 - Keyboard Controlled Synth</h2>
+<h3>In this lesson you learnt how to programatically change the frequency of an oscillator with the keyboard onkeydown event. </h3>
+
+<div tabindex="1" style="border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;" onkeydown="setNote(event.key)">
+	<p style="color:white">Click here and press a key</p>
+</div>
+<div class="code">
+<span class="file">script</span>
+<pre class="js">
+</pre>
+</div>
+
+<div class="code">
+<span class="file">html</span>
+<p><span class="tag">&lt;div</span> <span class="attr">tabindex="1" style="border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;" onkeydown="setNote(event.key)"</span><span class="tag">&gt;</span></p>
+	<p>&emsp;&emsp;&emsp;<span class="tag">&lt;p</span> <span class="attr">style="color:white"</span><span class="tag">&gt;</span></span>Click here and press a key<span class="tag">&lt;/p&gt;</span></p>
+<p><span class="tag">&lt;/div&gt;</span></p>
+</div>
+	<script id="js">	
+var audio_context = window.AudioContext || window.webkitAudioContext; // Makes the synthsizer cross browser compatible
+
+var con = new audio_context(); // Create an audio engine
+
+var osc = con.createOscillator(); //Creating an Oscilattor
+
+osc.connect(con.destination); // Connects the oscillator to the computer sound system
+
+osc.frequency.value = 600;
+
+osc.start(); //starts the oscillator
+
+function setNote(key){
+	if(key == 'z'){
+		//Play a C
+		osc.frequency.value = 261.33;
+	}
+
+	if(key == 'x'){
+		//Play a D
+		osc.frequency.value = 293.66;
+	}
+	
+	if(key == 'c'){
+		//Play a E
+		osc.frequency.value = 329.63;
+	}
+
+	if(key == 'x'){
+		//Play a F
+		osc.frequency.value = 349.23;
+	}
+}
+</script>
+</body>
+</html>
