@@ -22,7 +22,9 @@
 			<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/121/index.html">1.21 - Sound Synthesis Outro</a></li>
 		</ul>
 	</li>
-	<li><h4>Week 2</h4><hr><ul>
+	<li><h4>Week 2</h4><hr>
+	<em>Nothing here to see yet, comeback in a couple of hours</em>
+	<!--<ul>
 		<li>
 			<a>2.1 - Learning outcomes
 			</a>
@@ -75,5 +77,5 @@
 			<a>2.17 - Reflect on your feedback
 			</a>
 		</li>
-	</ul></li>
+	</ul>--></li>
 </ul>
