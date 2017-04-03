@@ -24,15 +24,15 @@
 	</li>
 	<li><h4>Week 2</h4><hr><ul>
 		<li>
-			<a  href="">2.1 - Learning outcomes
+			<a>2.1 - Learning outcomes
 			</a>
 		</li>
 		<li >
-			<a  href="">2.2 - User interfaces introduction
+			<a>2.2 - User interfaces introduction
 			</a>
 		</li>
 		<li >
-			<a  href="">2.3 - Find an interesting musical interface
+			<a>2.3 - Find an interesting musical interface
 			</a>
 		</li>
 		<li >
@@ -44,7 +44,7 @@
 			</a>
 		</li>
 		<li >
-			<a  href="">2.8 - NexusUI documentation links and widget list
+			<a>2.8 - NexusUI documentation links and widget list
 			</a>
 		</li>
 		<li >
@@ -56,7 +56,7 @@
 			</a>
 		</li>
 		<li >
-			<a  href="">2.13 - User interfaces outro
+			<a>2.13 - User interfaces outro
 			</a>
 		</li>
 		<li >
@@ -64,15 +64,15 @@
 			</a>
 		</li>
 		<li >
-			<a  href="">2.15 - Submit your assigmment for review
+			<a>2.15 - Submit your assigmment for review
 			</a>
 		</li>
 		<li >
-			<a  href="">2.16 - Review another learner's assigmnet
+			<a>2.16 - Review another learner's assigmnet
 			</a>
 		</li>
 		<li >
-			<a  href="">2.17 - Reflect on your feedback
+			<a>2.17 - Reflect on your feedback
 			</a>
 		</li>
 	</ul></li>
