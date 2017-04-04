@@ -23,7 +23,6 @@
 		</ul>
 	</li>
 	<li><h4>Week 2</h4><hr>
-	<em>Nothing here to see yet, comeback in a couple of hours</em>
 	<ul>
 		<li>
 			<a>2.01 - Learning outcomes
@@ -78,4 +77,4 @@
 			</a>
 		</li>
 	</ul></li>
-</ul>+
+</ul>
