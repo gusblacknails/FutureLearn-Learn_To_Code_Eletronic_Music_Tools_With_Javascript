@@ -37,11 +37,11 @@
 			</a>
 		</li>
 		<li >
-			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/204/index.html">2.04 - Intro to NexusUI
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week2/204/index.html">2.04 - Intro to NexusUI
 			</a>
 		</li>
 		<li >
-			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/206/index.html">2.06 - Slider controlled oscillator
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week2/206/index.html">2.06 - Slider controlled oscillator
 			</a>
 		</li>
 		<li >
@@ -49,11 +49,11 @@
 			</a>
 		</li>
 		<li >
-			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/209/index.html">2.09 - Piano controller
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week2/209/index.html">2.09 - Piano controller
 			</a>
 		</li>
 		<li >
-			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/211/index.html">2.11 - Tilt sensor control
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week2/211/index.html">2.11 - Tilt sensor control
 			</a>
 		</li>
 		<li >
@@ -61,7 +61,7 @@
 			</a>
 		</li>
 		<li >
-			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/214/index.html">2.14 - Programming Exercise
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week2/214/index.html">2.14 - Programming Exercise
 			</a>
 		</li>
 		<li >
