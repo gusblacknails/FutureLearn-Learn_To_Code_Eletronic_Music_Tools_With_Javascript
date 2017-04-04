@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 2.11 - Tilt Sensor Control</title>
+	<link rel="stylesheet" href="../../syntax.css">
+	<script type="text/javascript" src="nexusUI.min.js"></script>
+		<script type="text/javascript" src="../../index.js"></script>
+
+
+</head>
+
+<body>
+
+<h2>Chapter 2.11 - Tilt Sensor Control</h2>
+<h3>In this chapter you learnt how to user the tilt widget from the nexusUI and use it with the WebAudio API.</h3>
+
+<canvas id="tilt" width="250px" style="margin-bottom:20px;margin-left:10px" nx="tilt"></canvas>
+
+<br>
+<div class="code">
+	<span class="file">script</span>
+	<pre class="js">
+	</pre>
+</div>
+<div class="code">
+<span class="file">html</span>
+<pre class="js">
+</pre>
+&lt;canvas id="tilt" width="250px" style="margin-bottom:20px;margin-left:10px" nx="tilt"&gt;&lt;/canvas><br>
+</div>
+</body>
+<script id="js" type="text/javascript">
+var audio_context = window.AudioContext || window.webkitAudioContext
+var con = new audio_context();
+var osc = con.createOscillator();
+osc.connect(con.destination);
+osc.start();
+var tilt;
+nx.onload = function(){
+	tilt.on('*', tiltChanged);
+}
+
+function tiltChanged(data){
+	osc.frequency.value = data.x * 500;
+}
+</script>
+</html>

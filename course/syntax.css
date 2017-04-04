@@ -14,7 +14,7 @@ h3{color:white;font-weight: lighter;}
     border-radius: 5px;
     box-sizing: border-box;
     padding: 15px;
-    display: inline-block;
+    display: block;
     position: relative;
     padding-top: 25px;
     user-select: all;

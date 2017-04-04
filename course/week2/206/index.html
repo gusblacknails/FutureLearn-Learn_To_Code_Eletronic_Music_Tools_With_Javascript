@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 2.06 - Slider controlled oscillator</title><
+	<link rel="stylesheet" href="../../syntax.css">
+	<script type="text/javascript" src="nexusUI.min.js"></script>
+		<script type="text/javascript" src="../../index.js"></script>
+
+
+</head>
+
+<body>
+
+<h2>Chapter 2.06 - Slider controlled oscillator</h2>
+<h3>In this chapter you learn to connect the nexusUI widgets with the WebAudio API</h3>
+
+<canvas min="100" max="1000" id="slider1" style="margin-bottom:20px;margin-left:10px" nx="slider"></canvas>
+
+
+<br>
+<div class="code">
+	<span class="file">script</span>
+	<pre class="js">
+	</pre>
+</div>
+<div class="code">
+<span class="file">html</span>
+<pre class="js">
+</pre>
+&lt;canvas min="100" max="1000" id="slider1" style="margin-bottom:20px;margin-left:10px" nx="slider"&gt;&lt;/canvas><br>
+</div>
+</body>
+<script id="js" type="text/javascript">
+var audio_context = window.AudioContext || window.webkitAudioContext
+
+var con = new audio_context();
+var osc = con.createOscillator();
+osc.connect(con.destination);
+osc.start();
+var slider1;
+
+nx.onload = function(){
+	slider1.on('*', slider1Changed);
+}
+
+function slider1Changed(data){
+	osc.frequency.value = data.value
+}
+</script>
+</html>

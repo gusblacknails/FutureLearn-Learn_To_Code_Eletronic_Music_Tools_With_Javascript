@@ -13,7 +13,7 @@
 			<li>1.04 - Sound Sythesis Introduction</li>
 			<li>1.07 - Into The codecircle</li>
 			<li>1.08 - Information About CodeCircle</li>
-			<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/109/index.html">109 - Our First synth</a></li>
+			<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/109/index.html">1.09 - Our First synth</a></li>
 			<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/111/index.html">1.11 - Mouse Controlled Synth</a></li>
 			<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/113/index.html">1.13 - Keyboard Controlled Synth</a></li>
 			<li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/115/index.html">1.15 - Modulation with an oscillator</a></li>
@@ -24,37 +24,37 @@
 	</li>
 	<li><h4>Week 2</h4><hr>
 	<em>Nothing here to see yet, comeback in a couple of hours</em>
-	<!--<ul>
+	<ul>
 		<li>
-			<a>2.1 - Learning outcomes
+			<a>2.01 - Learning outcomes
 			</a>
 		</li>
 		<li >
-			<a>2.2 - User interfaces introduction
+			<a>2.02 - User interfaces introduction
 			</a>
 		</li>
 		<li >
-			<a>2.3 - Find an interesting musical interface
+			<a>2.03 - Find an interesting musical interface
 			</a>
 		</li>
 		<li >
-			<a  href="#">2.4 - Intro to NexusUI
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/204/index.html">2.04 - Intro to NexusUI
 			</a>
 		</li>
 		<li >
-			<a  href="#">2.6 - Slider controlled oscillator
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/206/index.html">2.06 - Slider controlled oscillator
 			</a>
 		</li>
 		<li >
-			<a>2.8 - NexusUI documentation links and widget list
+			<a>2.08 - NexusUI documentation links and widget list
 			</a>
 		</li>
 		<li >
-			<a  href="#">2.9 - Piano controller
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/209/index.html">2.09 - Piano controller
 			</a>
 		</li>
 		<li >
-			<a  href="#">2.11 - Tilt sensor control
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/211/index.html">2.11 - Tilt sensor control
 			</a>
 		</li>
 		<li >
@@ -62,7 +62,7 @@
 			</a>
 		</li>
 		<li >
-			<a  href="#">2.14 - Programming Exercise
+			<a  href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week1/214/index.html">2.14 - Programming Exercise
 			</a>
 		</li>
 		<li >
@@ -77,5 +77,5 @@
 			<a>2.17 - Reflect on your feedback
 			</a>
 		</li>
-	</ul>--></li>
-</ul>
+	</ul></li>
+</ul>+

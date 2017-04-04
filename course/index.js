@@ -32,16 +32,28 @@ function syntaxHighlight(){
   res = res.replace(/"."/g, function(x){return '<span class="string">'+x+'</span>'} )
 
   //Matches floats
-  res = res.replace(/[0-9]+\D\d+/g, function(x){return '<span class="integer">'+x+'</span>'} )
+  //res = res.replace(/[0-9]+\D\d+/g, function(x){return '<span class="integer">'+x+'</span>'} )
 
   //Matches integers
-  res = res.replace(/\s[0-9]+(?=;)/g,function(x){return '<span class="integer">'+x+'</span>'} )
+  //res = res.replace(/\s[0-9]+(?=;)/g,function(x){return '<span class="integer">'+x+'</span>'} )
+
+  //Matches general numbers
+  res = res.replace(/[^;a-z :*+-]\d+/g, function(x){return '<span class="integer">'+x+'</span>'})
+
+  //HTML syntax
+
+  // /&lt;|&gt;/g -> matches for eg: < and >
+
+  // /&lt;[a-z]+/g -> matches tag begining eg: <canvas
+
+  // /"[0-9a-zA-z]+"/g -> matches a property value eg: "asdad"
+
+  // /\w+=/g -> matches any property eg: adad=
+
 
   document.querySelector('.js').innerHTML = res;
 }
 
 
 
-window.onload = function(){
-  syntaxHighlight();
-}
+window.addEventListener('load', syntaxHighlight)
