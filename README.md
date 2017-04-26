@@ -96,17 +96,17 @@
             <li>3.1 - Learning outcomes</li>
             <li>3.2 - Drum machine introduction</li>
             <li>3.3 -Interesting drum machine tracks</li>
-            <li><a href="url/course/week3/304/index.html">3.4 - Load and play a sample</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week3/304/index.html">3.4 - Load and play a sample</a>
             </li>
-            <li><a href="url/course/week3/306/index.html">3.6 - Playing samples with a clock</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week3/306/index.html">3.6 - Playing samples with a clock</a>
             </li>
-            <li><a href="url/course/week3/308/index.html">3.8 - Super precise timing</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week3/308/index.html">3.8 - Super precise timing</a>
             </li>
-            <li><a href="url/course/week3/310/index.html">3.10 - Multiple sounds</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week3/310/index.html">3.10 - Multiple sounds</a>
             </li>
-            <li><a href="url/course/week3/312/index.html">3.12 - Drum machine UI</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week3/312/index.html">3.12 - Drum machine UI</a>
             </li>
-            <li><a href="url/course/week3/314/index.html">3.14 - Visual step display</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week3/314/index.html">3.14 - Visual step display</a>
             </li>
             <li>3.16 - Week 3 outro</li>
             <li>3.17 - Final drum machine code: standards compliant version</li>
@@ -123,17 +123,17 @@
             <li>4.1 - Algorithmic music learning outcomes</li>
             <li>4.2 - Algorithmic music introduction</li>
             <li>4.3 - Algorave music</li>
-            <li><a href="url/course/week4/404/index.html">4.4 - Algorithmic melody</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/404/index.html">4.4 - Algorithmic melody</a>
             </li>
-            <li><a href="url/course/week4/406/index.html">4.6 - Algorithmic rhythm</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/406/index.html">4.6 - Algorithmic rhythm</a>
             </li>
-            <li><a href="url/course/week4/408/index.html">4.8 - Algorithmic drum machine</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/408/index.html">4.8 - Algorithmic drum machine</a>
             </li>
-            <li><a href="url/course/week4/410/index.html">4.10 - Algoravemachine</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/410/index.html">4.10 - Algoravemachine</a>
             </li>
-            <li><a href="url/course/week4/412/index.html">4.12 - Algorave machine with melody</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/412/index.html">4.12 - Algorave machine with melody</a>
             </li>
-            <li><a href="url/course/week4/414/index.html">4.14 - FX</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/414/index.html">4.14 - FX</a>
             </li>
             <li>4.16 - Algorithmic music outro</li>
             <li>4.17 - Programming exercise</li>
