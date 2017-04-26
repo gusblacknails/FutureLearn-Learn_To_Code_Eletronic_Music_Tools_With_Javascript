@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 3.06 - Load and play a sample</title>
+	< <link rel="stylesheet" href="../../syntax.css">
+		<script type="text/javascript" src="nexusUI.min.js"></script>
+		<script type="text/javascript" src="../../index.js"></script>
+</head>
+
+<body>
+	<h2>Chapter 3.04 - Load and play a sample</h2>
+	<h3>In this video you learnt to load and play a sample with the Web Audio API</h3>
+	<br>
+	<div tabindex="1" style="border:1px solid red;width:200px;width: 100%;line-height: 300px;margin-bottom: 40px;text-align: center;" onkeydown="playSound()">
+	<p style="color:white">Click here and press a key</p>
+</div>
+	<div class="code">
+		<span class="file">script</span>
+		<pre class="js">
+			</pre>
+	</div>
+</body>
+<script id="js" type="text/javascript">
+	var audio_context = window.AudioContext || window.webkitAudioContext
+	var con = new audio_context();
+	var hat;
+	function loadSample(url, callback) {
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', url, true);
+		xhr.responseType = "arraybuffer"; //Compatible data with the audioData that the Web Audio API needs
+		xhr.onload = function () {
+			var audioData = xhr.response;
+			con.decodeAudioData(audioData, function (buffer) {
+				callback(buffer)
+			})
+		};
+
+		xhr.send();
+	}
+
+	loadSample("HT00.WAV", function (buffer) {
+		hat = buffer;
+		playSound();
+	
+	});
+
+	function playSound(){
+			var player = con.createBufferSource();
+		player.buffer = hat;
+		player.start();
+		player.connect(con.destination);
+	}
+</script>
+
+</html>

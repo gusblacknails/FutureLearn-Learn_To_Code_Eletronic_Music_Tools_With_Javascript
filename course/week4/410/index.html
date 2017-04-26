@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Chapter 4.10 - </title>
+	< <link rel="stylesheet" href="../../syntax.css">
+		<script type="text/javascript" src="nexusUI.min.js"></script>
+		<script type="text/javascript" src="../../index.js"></script>
+</head>
+
+<body>
+	<h2>Chapter 4.10 - </h2>
+	<h3>In this chapter you learned to manipulate the sequence using code.</h3>
+	<br>
+	<textarea id="hat_editor" name="" onkeyup='updateHats()'>0.25,0.50,0.75,0.25,0.50,0.50,0.25,0.15</textarea>
+	<textarea id="snare_editor" name="" onkeyup='updateHats()'>0,0,0,0,0,0,0,1</textarea>
+	<div class="code">
+		<span class="file">script</span>
+		<pre class="js">
+			</pre>
+	</div>
+</body>
+<script id="js" type="text/javascript">
+	var audio_context = window.AudioContext || window.webkitAudioContext
+	var con = new audio_context();
+	var hat;
+	var snare;
+	var hat_seq = [0,1,0,0]
+	var sn_seq =  [0,0,0,1]
+	var step = 0;
+	var totalSteps = hat_seq.length
+
+	var wait_time = 0.75;
+	var got_up_to;
+	var interval = 0.125; //the duration of each beat
+
+	function loadSample(url, callback) {
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', url, true);
+		xhr.responseType = "arraybuffer"; //Compatible data with the audioData that the Web Audio API needs
+		xhr.onload = function () {
+			var audioData = xhr.response;
+			con.decodeAudioData(audioData, function (buffer) {
+				callback(buffer)
+			})
+		};
+		xhr.send();
+	}
+
+	loadSample("HT00.WAV", function (buffer) {
+		hat = buffer;
+		playSound();
+	});
+
+	
+	loadSample("SN00.WAV", function (buffer) {
+		snare = buffer;
+		playSound();
+	});
+	
+	function playSound(buffer,time) {
+		var player = con.createBufferSource();
+		player.buffer = buffer;
+		player.start(time);
+		player.connect(con.destination);
+	}
+
+	function updateHats(){
+		var hats = document.getElementById('hat_editor').value;
+		hat_seq = hats.split(",");
+
+		var snare = document.getElementById('snare_editor').value;
+		sn_seq = snare.split(",");
+	}
+
+
+	setInterval(function () {
+		//Stores the current time of now (in the context of the webaudio api), each time the interval runs
+		var now = con.currentTime; 
+		
+		//Calculates the max_future_time. This is the time window in which the web audio api is going to set the events
+		//To set event in the futurewe a time interval, so that we can loop and set the events
+		//the min time is the value from the variable now and and the max-time is value from the variable max_future_time
+		var max_future_time = now + wait_time;  
+
+		if (got_up_to > now) {// already scheduled up to this point
+			now = got_up_to;
+		}
+
+		while (now <= max_future_time) { //Here we set the events
+
+			 //We use step to help calcutate the value for the array index. The step time duration is the variable interval
+			step++;
+
+			if (hat_seq[step % hat_seq.length] > Math.random()) { //If the hat[modulos] is 1 (1 == true), then set the event in the now
+				playSound(hat,now);
+			}
+			if(sn_seq[step % hat_seq.length]  > Math.random()){
+				playSound(snare,now);
+			}
+
+
+			now += interval; //and after you set the event increase the now by the interval time. The interval time is the step duration
+		}
+		got_up_to = now; //Store now variable value to help on setting events
+
+	}, wait_time * 1000); //and wait some time
+
+	
+</script>
+
+</html>
