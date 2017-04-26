@@ -120,14 +120,14 @@
         <h4>Week 4</h4>
         <hr>
         <ul>
-            <li>4.001 - Algorithmic music learning outcomes</li>
-            <li>4.002 - Algorithmic music introduction</li>
-            <li>4.003 - Algorave music</li>
-            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/404/index.html">4.04 - Algorithmic melody</a>
+            <li>4.01 - Algorithmic music learning outcomes</li>
+            <li>4.02 - Algorithmic music introduction</li>
+            <li>4.03 - Algorave music</li>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/404/index.html">4.4 - Algorithmic melody</a>
             </li>
-            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/406/index.html">4.06 - Algorithmic rhythm</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/406/index.html">4.6 - Algorithmic rhythm</a>
             </li>
-            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/408/index.html">4.08 - Algorithmic drum machine</a>
+            <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/408/index.html">4.8 - Algorithmic drum machine</a>
             </li>
             <li><a href="https://alicescfernandes.github.io/FutureLearn-Learn_To_Code_Eletronic_Music_Tools_With_Javascript/course/week4/410/index.html">4.10 - Algoravemachine</a>
             </li>
