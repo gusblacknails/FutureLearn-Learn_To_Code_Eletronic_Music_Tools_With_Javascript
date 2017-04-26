@@ -3,7 +3,8 @@
 <p>In each page you will find the script and the html code commentend and in demostration to better understand what is happening in the background</p>
 <p>You can use the following table of contents to guide yourself trough the topics of the course. The topics are in the same order as the course topics, but i skipped discussions and quizzes sections</p>
 <p><del>This repo will be updated as the course advances, so, stay tuned.</del><ins>The course is now finished, i will keep the repo for future reference</ins></p>
-<h3>UPDATE: Been working on a syntax highlighter for the html code. Will upload as soon as is finished, meanwhile, all the html code is now white</h3>
+<h4>UPDATE: Been working on a syntax highlighter for the html code. Will upload as soon as is finished, meanwhile, all the html code is now white</h4>
+<h3>UPDATE 2: Now that the course is over, it would be nice if we gather some projects that were coded during the course and make a repo full of learners projects.<br>If you have any project you want to showcase, push your code into the projects folder, with a readme file with your name, so we can know who did what.</h3>
 <ul>
     <li>
         <h4>Week 1</h4>
